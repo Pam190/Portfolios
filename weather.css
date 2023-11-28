@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0BCEAF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-weight:bold;
+
+}
+
+.container {
+    text-align: center;
+    background-image: url("img/clou.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 38px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black;
+    /* width:800px; */
+}
+
+#location {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#weather {
+    font-size: 24px;
+}
